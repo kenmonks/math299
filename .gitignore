@@ -1,0 +1,6 @@
+# ignore Apple cruft
+.DS_Store
+# ignore vscode cruft
+*.code-workspace
+# ignore the node modules
+node_modules/
