@@ -6,10 +6,10 @@
   <meta http-equiv="Cache-Control" content="no-cache">
   <title>Lurch</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script type="module" src="https://cdn.jsdelivr.net/gh/lurchmath/lurch/lurchmath/editor.js"></script>
-  <script type="module" src="https://cdn.jsdelivr.net/gh/lurchmath/lurch/lde/src/experimental/lde-debug.js"></script>
-  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/lurchmath/lurch/lurchmath/favicon.ico">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lurchmath/lurch/lurchmath/main-app-styles.css">
+  <script type="module" src="lurchmath/editor.js"></script>
+  <script type="module" src="lde/src/experimental/lde-debug.js"></script>
+  <link rel="shortcut icon" href="lurchmath/favicon.ico">
+  <link rel="stylesheet" href="lurchmath/main-app-styles.css">
 </head>
 
 <body onbeforeunload='return unloadmsg()'>
@@ -36,7 +36,7 @@
           content_css : [ 'document', 
           // `lurchmath/editor-styles.css`,
           // `lurchmath/leftborder-theme.css`+`?nocache=${new Date().getTime()}`,
-          `https://cdn.jsdelivr.net/gh/lurchmath/lurch/lurchmath/syntax-theme.css`+`?nocache=${new Date().getTime()}`,
+          `lurchmath/syntax-theme.css`+`?nocache=${new Date().getTime()}`,
           // `lurchmath/syntax-theme.css`,
           'https://unpkg.com/mathlive@0.100.0/dist/mathlive-static.css' ]
         },
